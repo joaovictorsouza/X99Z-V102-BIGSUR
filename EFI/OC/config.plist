@@ -1553,7 +1553,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>npci=0x2000  tlbto_us=0 brcmfx-country=#a</string>
+                    <string>-v keepsyms=1 npci=0x2000 slide=128 alcid=5 swd_panic=1</string>
                     <key>csr-active-config</key>
                     <data>AQIAAA==</data>
                 </dict>
@@ -1728,13 +1728,13 @@
                     <key>Arguments</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>HfsPlus.efi</string>
+                    <string>OpenHfsPlus.efi</string>
                     <key>Enabled</key>
                     <true/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>HfsPlus.efi</string>
+                    <string>OpenHfsPlus.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
